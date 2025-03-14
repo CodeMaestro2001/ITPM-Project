@@ -16,7 +16,7 @@ import UpdateReservationForm from './user/pages/pasindu/reservation/UpdateReserv
 import RestaurentList from './user/pages/pasindu/restaurent/RestaurentList';
 import RestaurentDetails from './user/pages/pasindu/restaurent/RestaurentDetails';
 
-import LoginPage from './user/pages/tharusha/UserSignupPage';
+import LoginPage from "./user/pages/tharusha/LoginPage"; 
 import UserSignupPage from './user/pages/tharusha/UserSignupPage';
 import ManagerSignupPage from './manager/pages/tharusha/ManagerSignupPage';
 
@@ -48,7 +48,7 @@ const App = () => {
         <Route path="/user/display-restaurent" element={<RestaurentList  />} />
         <Route path="/user/restaurent-details/:id" element={<RestaurentDetails  />} />
 
-        <Route path="/login" element={<UserSignupPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/signup/user" element={<UserSignupPage />} />
         <Route path="/signup/manager" element={<ManagerSignupPage />} />
 
