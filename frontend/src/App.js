@@ -28,6 +28,7 @@ import CreateRestaurant from "./manager/pages/pamaa/restaurent/CreateRestaurant"
 import RestaurantList from "./admin/pages/pamaa/restaurent/RestaurantList";
 import UpdateRestaurant from "./manager/pages/pamaa/restaurent/UpdateRestaurant";
 import FoodsByRestaurant from "./manager/pages/pamaa/restaurent/FoodsByRestaurant";
+import MyProfilePage from "./user/pages/tharusha/MyProfilePage";
 
 
 const App = () => {
@@ -51,6 +52,7 @@ const App = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup/user" element={<UserSignupPage />} />
         <Route path="/signup/manager" element={<ManagerSignupPage />} />
+        <Route path="/me" element={<MyProfilePage />} />
 
         
 
