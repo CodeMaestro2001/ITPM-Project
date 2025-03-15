@@ -9,7 +9,7 @@ const MyProfilePage = () => {
       try {
         const token = localStorage.getItem("token"); // Get token from localStorage
         if (!token) {
-          console.log("No token found. User might not be logged in.");
+          console.log("No token are found. User might not be logged in.");
           return;
         }
 
